@@ -29,11 +29,34 @@
 
 //i = 2\j = 2k = 2
 
-int i = 5;
+//int i = 5;
 
-double f = 7.5;
+//double f = 7.5;
 
-double dbl = 10.01;
+//double dbl = 10.01;
 
-Console.WriteLine("i=" + i + "\\f=" + f + "\\dbl=" + dbl);
+//Console.WriteLine("i=" + i + "\\f=" + f + "\\dbl=" + dbl);
 
+//int a = 7;
+//a = a + 4;
+//Console.WriteLine(a);
+
+//int a, b = 1, c = 2; a = b++++ + c++;
+
+//int a = 2;
+
+//int b = a - 3;
+
+//int c = a + 1;
+
+//a = b + a - c;
+
+//c = c-(b + a);
+
+//b = b + a - 1;
+
+//int x = a + b + c;
+
+//Console.WriteLine(x);
+
+int x; x += 1;
