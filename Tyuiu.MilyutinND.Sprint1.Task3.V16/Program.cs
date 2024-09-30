@@ -2,15 +2,31 @@
 //корнями которого являются введенные пользователем два вещественных числа (для справки: b=-x1-x2). Ответ округлите до 3 знаков после запятой.
 using Tyuiu.MilyutinND.Sprint1.Task3.V16.Lib;
 
-DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Милютин Н. Д. | СМАРТб-24-1";
 Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+Console.WriteLine("* Задание #3                                                              *");
+Console.WriteLine("* Вариант #16                                                             *");
+Console.WriteLine("* Выполнил: Милютин Никита Дмитриевич | СМАРТб-24-1                       *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая вычисляет и печатает коэффициент приведенно-*");
+Console.WriteLine("* го квадратного уравнения, корнями которого являются введенные пользова- *");
+Console.WriteLine("* телем два вещественных числа (для справки: b=-x1-x2).                   *");
+Console.WriteLine("***************************************************************************");
+
+DataService ds = new DataService();;
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
-double x = 0;
-double y = 3;
-Console.WriteLine("Первый корень = " + x);
-Console.WriteLine("Второй корень = " + y);
+double x;
+Console.WriteLine("Первый корень: " );
+x = Convert.ToDouble(Console.ReadLine());
+
+double y;
+Console.WriteLine("Второй корень: " );
+y = Convert.ToDouble(Console.ReadLine());
 //коэффициент квадратного уравнения
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
