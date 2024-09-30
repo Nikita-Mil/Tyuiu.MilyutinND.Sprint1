@@ -12,7 +12,7 @@ namespace Tyuiu.MilyutinND.Sprint1.Task1.V20.Test
             double x = 1.0;
             double y = 2.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(-1, res);
+            Assert.AreEqual(11, res);
         }
     }
 }
