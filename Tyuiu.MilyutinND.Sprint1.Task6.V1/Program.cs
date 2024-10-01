@@ -57,6 +57,6 @@ while (true)
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine($"{x} {cod}");
+        Console.WriteLine($"{cod}");
     }
 }
