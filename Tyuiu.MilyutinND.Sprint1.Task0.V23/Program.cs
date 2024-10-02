@@ -59,18 +59,14 @@
 
 //Console.WriteLine(x);
 
-//int x; x += 1;
+int a = 0, b = 0;
 
+Console.WriteLine("Enter a & b");
 
-int a = 7;
+a = Convert.ToInt32(Console.ReadLine());
 
-int b = a - 5;
+b = Convert.ToInt32(Console.ReadLine());
 
-a -= 2 * --b;
+a *= b;
 
-b *= a++;
-
-int x = a + b;
-
-
-Console.WriteLine(x);
+Console.WriteLine("Result = {0}", a);
